@@ -1,8 +1,8 @@
-pipeline
+pipeline{
 
 	agent any
 	stage("compile"){
-	steps{ 
+		steps{ 
 			sh 'javac Test.java'
 		}
 	
